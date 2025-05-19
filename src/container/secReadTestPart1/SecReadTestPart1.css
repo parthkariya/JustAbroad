@@ -1,0 +1,60 @@
+.SecReadTestPart1_main_top {
+  padding: 1.3rem;
+  background-color: var(--color-aliceblue);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.SecReadTestPart1_main {
+  background-color: var(--color-white);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.SecReadTestPart1_content_top {
+  display: flex;
+  gap: 1rem;
+}
+
+.SecReadTestPart1_content1_main {
+  overflow-y: scroll;
+  height: 100vh;
+}
+.SecReadTestPart1_content2_main {
+  overflow-y: scroll;
+  height: 100vh;
+  gap: 2rem;
+}
+.SecReadTestPart1_content1_main,
+.SecReadTestPart1_content2_main {
+  background-color: var(--color-white);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.SecReadTestPart1_content1_main_edited{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .SecReadTestPart1_content_top {
+    flex-direction: column;
+  }
+
+  .SecReadTestPart1_content1_main,
+  .SecReadTestPart1_content2_main {
+    width: 100%;
+    overflow: unset;
+    height: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+.curr_week_1_test_1_main_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+}
+
+.curr_week_1_test_1_first_part{
+    width: 50%;
+}
+
+.status_box_main_curr_week_test_first_class{
+    width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .curr_week_1_test_1_main_flex{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .curr_week_1_test_1_first_part{
+        width: 100%;
+    }
+
+    .status_box_main_curr_week_test_first_class{
+        width: 100%;
+    }
+}

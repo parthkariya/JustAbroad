@@ -1,0 +1,61 @@
+.mockDemoTestPart1_main_nav {
+  background-color: var(--color-brand);
+  color: var(--color-white);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_que_no_main {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+.btn_que_no {
+  background: var(--color-brand);
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn_sec_redirect_main {
+  background: var(--color-whitesmoke);
+  padding: 1rem;
+  margin-top: 4rem;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column-reverse;
+
+}
+.btn_sec_redirect_inner {
+  background: var(--color-aliceblue);
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  width: 100%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.btn_submit_test {
+  background: var(--color-brand);
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+}

@@ -1,0 +1,44 @@
+.SecTestPart2_content_inner {
+  max-width: 50%;
+}
+
+.SecTestPart2_content_data {
+  display: flex;
+}
+
+.SecTestPart2_content_data_inner {
+  border: 1px solid;
+  width: 100%;
+  padding: 10px;
+}
+
+.remove_underline {
+  border-bottom: 0px !important;
+}
+.remove_border_right {
+  border-right: 0px !important;
+}
+
+.drag-container {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.drag-item {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  cursor: grab;
+}
+
+.drop-box {
+  padding: 4px;
+  border: 1px dashed #ccc;
+}

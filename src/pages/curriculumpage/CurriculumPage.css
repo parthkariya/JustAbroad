@@ -1,0 +1,8 @@
+.curr_head_btn_main{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}

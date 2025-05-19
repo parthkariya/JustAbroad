@@ -1,0 +1,27 @@
+.dash_video_main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 60px;
+}
+
+.leassonpage_video_main_dash_video {
+  /* width: 350px; */
+  width: 100%;
+}
+
+.dashvideos_iframe {
+  height: 200px !important;
+}
+
+.dash_video_main_head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.dash_video_main_head_txt {
+  font-size: 22px;
+  font-weight: 600;
+}

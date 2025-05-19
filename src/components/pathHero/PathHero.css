@@ -1,0 +1,10 @@
+.PathHero {
+  background: var(--color-brand);
+  color: var(--color-white);
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+.dash_notification_date_main {
+  color: #999;
+  padding-top: 1rem;
+}
+
+.dash_notification_date {
+  font-size: 14px;
+}
+
+.line_date_vertoicle {
+  background: #000;
+  /* height: 100px; */
+  width: 1px;
+}
+
+.dash_notification_date_flex {
+  display: flex;
+  gap: 28px;
+  position: relative;
+}
+
+.dash_notification_date_icon_main {
+  width: 32px;
+  height: 32px;
+  background: var(--color-brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  position: absolute;
+  left: 76px;
+  top: 15px;
+}
+
+.dash_notification_txt {
+  font-size: 16px;
+  color: var(--color-black);
+  /* max-width: 400px; */
+  padding-top: 1rem;
+}
+
+.dash_notice_btn_main {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.dash_notice_btn_main {
+  align-self: flex-end;
+  margin-top: 1rem;
+}

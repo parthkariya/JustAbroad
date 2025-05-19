@@ -1,0 +1,143 @@
+.MockTest_main {
+  padding: 1.5rem;
+  background: whitesmoke;
+}
+
+.MockTest_head_main {
+  background-color: var(--color-brand);
+  display: flex;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  justify-content: center;
+  color: var(--color-white);
+}
+
+.MockTest_icon_head_main {
+  display: flex;
+  gap: 3rem;
+}
+
+.MockTest_icon_head_inner {
+  font-size: 25px;
+  min-width: 100px;
+  color: var(--color-brand);
+}
+
+.mock_test_btn_main {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.MockTest_content_head_main {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: var(--color-white);
+}
+
+.MockTest_content_block_main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* background-color: #c64141; */
+  background-color: var(--color-brand);
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.MockTest_content_main {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--color-white);
+}
+
+.MockTest_content_inner {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MockTest_content_num_main {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.MockTest_content_num_inner {
+  font-size: 25px;
+  min-width: 100px;
+}
+.MockTest_content_title_main {
+  width: 155px;
+}
+
+.MockTest_content_status_main {
+  width: 150px;
+}
+
+@media screen and (max-width: 1100px) {
+  .MockTest_content_num_main,
+  .MockTest_icon_head_main {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  .MockTest_content_num_inner,
+  .MockTest_icon_head_inner {
+    min-width: 85px !important;
+  }
+
+  .start_btn_responsive,
+  .MockTest_content_status_main {
+    width: 120px;
+    padding: 0.3rem;
+  }
+
+  .MockTest_content_num_inner,
+  .MockTest_icon_head_inner {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .MockTest_content_num_inner,
+  .MockTest_icon_head_inner {
+    min-width: 65px !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .MockTest_main {
+    overflow-x: scroll;
+    display: flex;
+  }
+
+  .MockTest_content_main {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .MockTest_content_head_main {
+    padding: 0.6rem;
+  }
+}
+
+
+
+/* @media screen and (max-width: 600) {
+  .MockTest_main {
+    overflow-x: scroll;
+    display: flex;
+  }
+} */

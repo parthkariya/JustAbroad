@@ -1,0 +1,83 @@
+.wip {
+  width: 50%;
+  left: 0;
+  top: 10;
+  background-color: #eeeeee;
+  border-right: 1px dotted;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid;
+}
+
+.droppable {
+  width: 50%;
+  right: 0;
+  top: 10;
+  border-left: 1px dotted;
+  border: 2px solid;
+  padding: 1rem;
+}
+
+.draggable {
+  margin: 5px auto;
+  border: 2px solid;
+  padding: 1rem;
+}
+
+.PteMockTest1Main_draglist {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.drop_box_design {
+  padding: 1px 15px;
+  border: 1px dashed #ccc;
+  /* display: flex; */
+  height: 25px;
+  width: 200px;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop_box_design2 {
+  padding: 1px 15px;
+  border: 1px dashed #ccc;
+  /* display: flex; */
+  height: 25px;
+  width: 100%;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+}
+
+.drag-container_style {
+  /* display: flex; */
+  margin: 10px;
+  gap: 1rem;
+  /* align-items: center; */
+}
+
+.wip_styles {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .PteMockTest1Main_draglist {
+    flex-direction: column;
+  }
+  .droppable,
+  .wip {
+    width: 100%;
+  }
+  .PteMockTest1Main_inner {
+    margin: 0px;
+  }
+}

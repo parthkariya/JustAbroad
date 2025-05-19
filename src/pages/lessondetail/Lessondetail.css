@@ -1,0 +1,57 @@
+.Lessondetail_main {
+  margin: 2rem;
+  gap: 2rem;
+  display: flex;
+  min-height: 100vh;
+}
+
+.Lessondetail_filter_main {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1.5rem;
+  width: 25%;
+  border-radius: 5px;
+}
+.lessondetail_head_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Lessondetail_filter_content_main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Lessondetail_filter_data_main {
+  width: 75%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+.less_side_cat {
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.less_side_cat_inner {
+  border-bottom: 1px solid #ccc;
+  padding-top: 0.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .Lessondetail_main {
+    flex-direction: column;
+  }
+
+  .Lessondetail_filter_main {
+    width: 100%;
+  }
+
+  .Lessondetail_filter_data_main {
+    width: 100% !important;
+  }
+}

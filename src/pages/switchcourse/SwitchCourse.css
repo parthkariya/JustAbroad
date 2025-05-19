@@ -1,0 +1,76 @@
+.switch_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .switch_con {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 3px solid;
+    border-radius: 8px;
+    padding: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2rem;
+  }
+  
+  .switch_pro_name {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-brand);
+  }
+  
+  .switch_pro_sub_name {
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--color-black);
+    max-width: 750px;
+    text-align: center;
+  }
+  
+  .switch_pro_sub_txt {
+    font-weight: 600;
+    font-size: 16px;
+    color: #aaa;
+  }
+  
+  .switch_btn {
+    max-width: 750px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 780px) {
+    .switch_pro_sub_name {
+      max-width: 600px;
+      text-align: center;
+    }
+  
+    .switch_btn {
+      max-width: 550px;
+    }
+  }
+  
+  @media screen and (max-width: 570px) {
+    .switch_pro_sub_name {
+      max-width: 100%;
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .switch_btn {
+      max-width: 350px;
+    }
+  
+    .switch_con {
+      padding: 1rem;
+    }
+  }

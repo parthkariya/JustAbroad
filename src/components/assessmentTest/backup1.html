@@ -1,0 +1,48 @@
+<>
+<div>
+  {item.que_no}&nbsp;
+  {item.que}
+</div>
+{item.options.map((item1) => {
+  return (
+    <>
+      <div className="">
+        <label className="radio_styling">
+          <input
+            type="radio"
+            name="react-tips"
+            value={item1.opt}
+            className=""
+          />
+          {item1.opt}
+        </label>
+      </div>
+    </>
+  );
+})}
+
+<div className="test_review_btn_flex">
+
+<div className="TakeQuizeLesson_btns_main">
+  {getindex === index ? null : (
+    <button
+      className="btn TakeQuizeLesson_btns_inner"
+      onClick={() => SetIndex(Number(getindex) - 1)}>
+      Previous
+    </button>
+  )}
+  <button
+    className="btn TakeQuizeLesson_btns_inner"
+    onClick={() => SetIndex(Number(getindex) + 1)}>
+    Next
+  </button>
+</div>
+
+    
+<button
+    className="btn TakeQuizeLesson_btns_inner review_btn"
+    onClick={() => setTest(4)}>
+    End Test
+  </button>
+  </div>
+</>

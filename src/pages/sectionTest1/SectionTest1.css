@@ -1,0 +1,13 @@
+.btn_part_block_main {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .btn_part_block_main {
+    align-items: flex-start !important;
+    flex-direction: column;
+  }
+}

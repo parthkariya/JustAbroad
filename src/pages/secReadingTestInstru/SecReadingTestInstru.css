@@ -1,0 +1,8 @@
+.SecReadingTestPart1_main_nav {
+  background-color: var(--color-brand);
+  color: var(--color-white);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

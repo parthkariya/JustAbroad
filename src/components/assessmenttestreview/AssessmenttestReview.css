@@ -1,0 +1,16 @@
+.test_review_btn_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.review_btn{
+    color: var(--color-white);
+    background: green;
+    border: green;
+    width: 180px;
+  }
+
+  .review_btn:hover{
+    border: 2px solid var(--color-brand);
+  }

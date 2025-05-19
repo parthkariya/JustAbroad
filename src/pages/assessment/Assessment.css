@@ -1,0 +1,40 @@
+.Assessment_main {
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: var(--color-brand);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+}
+.Assessment_head_main {
+  text-align: center;
+  color: var(--color-brand);
+}
+
+.assess_progress_bar_main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 2rem;
+}
+
+.assess_progress_bar_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.asses_intru_list {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.assessment_title_prog_bar_icon {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 130px;
+}

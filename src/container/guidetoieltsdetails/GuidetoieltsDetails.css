@@ -1,0 +1,16 @@
+.LessonDetailsContent_tab_main_guide_detail{
+    flex-wrap: wrap;
+}
+
+.btn_tab_guide_detail:hover{
+background-color: var(--color-white) !important;
+color: var(--color-brand) !important;
+border: 2px solid var(--color-brand) !important;
+
+}
+
+.btn_tab_guide_detail{
+    text-transform: capitalize;
+
+
+}

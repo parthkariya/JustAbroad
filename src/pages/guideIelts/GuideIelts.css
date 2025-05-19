@@ -1,0 +1,11 @@
+.FaAnglesDown_res {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .FaAnglesDown_res {
+    font-size: 22px;
+    display: block;
+    cursor: pointer;
+  }
+}

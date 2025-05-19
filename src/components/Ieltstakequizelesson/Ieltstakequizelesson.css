@@ -1,0 +1,18 @@
+.TakeQuizeLesson_main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .radio_styling {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .TakeQuizeLesson_btns_main{
+      display: flex;
+      gap: 1rem;
+  }
+  
+  .TakeQuizeLesson_btns_inner{
+      width: 130px;
+  }

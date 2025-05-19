@@ -1,0 +1,13 @@
+.curr_week_fourth_test{
+    align-items: flex-start;
+}
+
+.status_box_main_curr_fourth{
+    width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .status_box_main_curr_fourth{
+        width: 100%;
+    }
+}

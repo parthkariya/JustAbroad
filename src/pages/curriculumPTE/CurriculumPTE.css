@@ -1,0 +1,30 @@
+.CurriculumPTE_nav {
+  background: var(--color-brand);
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.CurriculumPTE_nav_btn_tab {
+    display: flex;
+    gap: 1rem;
+}
+
+.CurriculumPTE_block_main {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  flex-direction: column;
+}
+
+.CurriculumPTE_week_tab_main {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background: var(--color-brand); */
+}

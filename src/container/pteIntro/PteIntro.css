@@ -1,0 +1,32 @@
+/* .PteIntro_main {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid;
+  margin: 2rem;
+}
+
+.PteIntro_table_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.PteIntro_table_inner_top {
+  display: flex;
+  justify-content: center;
+}
+
+.PteIntro_table_inner {
+  display: flex;
+  border: 1px solid;
+  width: 300px;
+  background: lightgray;
+  padding: 0.3rem;
+}
+
+.pteintro1_points {
+  display: flex;
+  gap: 0.5rem;
+} */

@@ -1,0 +1,38 @@
+.SecTestPart3_table_main {
+  display: flex;
+}
+
+.SecTestPart3_table_inner {
+  border: 1px solid;
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .SecTestPart3_table_main_main {
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+  }
+
+  .SecTestPart3_table_inner {
+    min-width: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .SecTestPart3_table_main_main {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 400px) {
+  .SecTestPart3_table_main_main {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,24 @@
+.LessonDetailsVideos_main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.leassonpage_video_main {
+  /* width: 290px; */
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 460px) {
+  .leassonpage_video_main {
+    width: 100%;
+  }
+  .Lessondetail_main{
+    margin: 0px !important;
+  }
+}

@@ -1,0 +1,66 @@
+.dash_recent_pro_sec{
+    width: 100%;
+    /* height: 100%; */
+    /* padding-top: 80px; */
+    padding-bottom: 80px;
+}
+
+.dash_recent_pro_con{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--color-white);
+    /* height: 200px; */
+    border-radius: 8px;
+}
+
+.dash_recent_pro_flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.dash_recent_pro_card{
+width: 365px;
+height: 125px;
+/* background-color: black; */
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.dash_recent_pro_card_middle_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dash_recent_pro_card_middle_head{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 0px;
+}
+
+.dash_recent_pro_card_middle_text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaa;
+}
+
+.CircularProgressbar_styling2{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+@media screen and (max-width:790px) {
+    .dash_recent_pro_flex{
+        justify-content: center;
+    }
+
+    .dash_recent_pro_card{
+        width: 290px;
+    }
+}
